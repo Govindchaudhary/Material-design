@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+  //https://lewismcgeary.github.io/posts/animated-vector-drawable-pathMorphing/ in this pty named pathdata.only path changes or morphes
+  ie .this is used to morph the path of target group from line [(2,10)to (9,23)] to line [(14,0) to (14,7)]
+  <objectAnimator
+    android:duration="300"
+    android:propertyName="pathData"
+    android:valueFrom="M2,10 L9,23"
+    android:valueTo="M14,0 L14,7"
+    android:valueType="pathType" />
+
+</set>

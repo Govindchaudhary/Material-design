@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+  android:width="30dp"
+  android:height="30dp"
+  android:viewportWidth="30"
+  android:viewportHeight="30">
+  //basically in this we are creating firstly a vertical line [14,0 to14,7] then  a vertical line [14,8 to 14,27] then finally
+  a horizontal line [0,14 to 28,14] in a box of [30 by 30].
+
+  <group>
+    <path
+      android:name="sm_vertical_line"
+      android:strokeColor="@android:color/white"
+      android:strokeWidth="3"
+      android:pathData="M14,0 L14,7" />
+    <path
+      android:name="lg_vertical_line"
+      android:strokeColor="@android:color/white"
+      android:strokeWidth="3"
+      android:pathData="M14,8 L14,27" />
+    <path
+      android:name="horizontal_line"
+      android:strokeColor="@android:color/white"
+      android:strokeWidth="3"
+      android:pathData="M0,14 L28,14" />
+  </group>
+
+</vector>
